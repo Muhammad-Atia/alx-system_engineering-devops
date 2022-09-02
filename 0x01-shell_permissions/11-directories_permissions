@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -print0 | xargs -0 -I {} chmod -R ugo+x ..
+find .. -type d -exec chmod ugo+x
